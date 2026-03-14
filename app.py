@@ -27,8 +27,7 @@ def fim_de_jogo():
     print("Utilizei bastante I.A para me ajudar a descubrir erros de sintaxe, por ser minha primeira vez usando bibliotecas!\n 'randon' e 'time' essas foi as bibliotecas utilizadas para esse jogo rodado em terminal\n")
     time.sleep(15)
     print("Por esta aprendendo python 3 meses é de se esperar que sim, vai ter bastantes erros no código. \n Espero que compreendam\n Att: Daniel.C ")
-
-
+    exit()
 def você_morreu():
     print("Puts que vacilo em ! \n espero que tenha gostado do meu primeiro jog programado em Python com apenas 3 meses estudando!\n ")
     time.sleep(5)
@@ -37,8 +36,7 @@ def você_morreu():
     print("Utilizei bastante I.A para me ajudar a descubrir erros de sintaxe, por ser minha primeira vez usando bibliotecas!\n 'randon' e 'time' essas foi as bibliotecas utilizadas para esse jogo rodado em terminal\n")
     time.sleep(15)
     print("Por esta aprendendo python 3 meses é de se esperar que sim, vai ter bastantes erros no código. \n Espero que compreendam\n Att: Daniel.C ")
-
-
+    exit()
 def descartaritem():
     while True:
         remover = input("Deseja descartar algo de seu iventario ? Sim / Não: ") .strip(). capitalize()
